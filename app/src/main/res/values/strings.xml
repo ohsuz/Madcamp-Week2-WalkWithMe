@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">WalkWithMe</string>
+
+    // 탭 바 이름들
+    <string name="tab1">마이페이지</string>
+    <string name="tab2">추천경로</string>
+    <string name="tab3">WALK</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="txt" formatted="false">%1$20s \n</string>
+
+    <string name="facebook_app_key">595072634726612</string>
+
+</resources>

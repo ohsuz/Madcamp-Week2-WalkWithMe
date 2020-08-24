@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/content"
+    android:orientation="vertical"
+    android:baselineAligned="false">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/capture"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:orientation="vertical"
+        android:background="#000000">
+
+        <FrameLayout
+            android:id="@+id/frame_container1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/letswalk"></FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/route"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"></FrameLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/stop_walk"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/rounded_dark"
+        android:fontFamily="@font/nanum"
+        android:text="FINISH"
+        android:textSize="25dp" />
+</LinearLayout>
