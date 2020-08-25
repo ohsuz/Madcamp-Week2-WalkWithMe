@@ -61,7 +61,7 @@ Pressing the floating action button, you can see each type of route individually
 ---
 
 ### :three: Walk With Me
-> This is the core function of our app. If you select the preferred route among the recommended walk routes, the path is displayed on the map. You can follow the road by looking at the map.
+> This is the core function of our app. If you select the preferred route among the available walk routes, the path is displayed on the map. You can enjoy your walk while following the map.
 <div>
 <img width="30%" src="https://user-images.githubusercontent.com/59340911/91103978-bf33ee80-e6a7-11ea-957a-f3a202786a9c.jpg">
 <img width="30%" src="https://user-images.githubusercontent.com/59340911/91103983-c2c77580-e6a7-11ea-8356-75fc215af068.jpg">
